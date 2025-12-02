@@ -46,7 +46,7 @@ Project ideas
 Timeline planning
 Motivation and guidance
 
-Tech Stack
+# Tech Stack
 Component	Technology
 Frontend	Streamlit
 Backend	    Python
