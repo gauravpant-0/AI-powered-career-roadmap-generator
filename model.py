@@ -16,10 +16,6 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 
-
-f = open('newapi.txt')
-GROQ_API_KEY = f.read()
-
 model = ChatGroq(
     model="llama-3.1-8b-instant",  # or mixtral-8x7b
     groq_api_key=GROQ_API_KEY,
